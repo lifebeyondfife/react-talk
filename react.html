@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="react.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="impress">
+    <div id="intro" class="picture step slide" data-x="-1400" data-y="-1500">
+		<div id="date" class="bottom"><q>Building web applications with React</q></div>
+		<script>
+			var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+			var date = new Date();
+			document.getElementById("date").innerHTML += "<q>" + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear() + "</q>";
+		</script>
+    </div>
+	
+    <div class="step slide" data-x="0" data-y="-1500">
+		<ol>
+			<li>Why React?</li>
+			<li>What is React?</li>
+			<li>What is Flux?</li>
+			<li>Getting started</li>
+		</ol>
+    </div>
+
+    <div id="title" class="step" data-x="5000" data-y="0" data-scale="7">
+        <h1>The state of web development in 2016</h1>
+    </div>
+	
+	<div class="step slide longlist" data-x="1400" data-y="-1500" >
+		<ul>
+			<li>Angular (1.* / 2.0) – MVC/MVVM framework</li>
+			<li>Backbone – MVP framework</li>
+			<li>Ember – MVC framework</li>
+			<li>Knockout – MVVM framework</li>
+			<li>React with Flux – V in MVC + event library</li>
+			<li>Meteor – shared client-server framework</li>
+			<li>Mithril – client MVC framework</li>
+			<li>“No framework, random js libraries”</li>
+		</ul>
+    </div>
+	
+	<div id="state" class="picture step" data-x="5000" data-y="-3500" data-rotate="180" data-scale="4">
+		<span class="bottom"><a href="http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/">http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/</a></span>
+    </div>
+
+	<div id="trends" class="picture step" data-x="1250" data-y="-3500" data-z="-900" data-rotate-z="180"  data-rotate-y="-30" data-scale="4">
+    </div>
+
+	<div id="popular" class="picture step" data-x="-1750" data-y="-3500" data-z="-3950" data-rotate-z="180" data-rotate-y="-60" data-scale="4">
+		<span class="bottom">Expurgated list, correct as of April 2016</span>
+	</div>
+
+    <div id="tiny" class="step" data-x="5500" data-y="3000" data-z="-5000" data-rotate-x="225" data-rotate-y="10" data-rotate-z="190" data-scale="1">
+        <p>React</p>
+    </div>
+
+	<div class="step slide longlist" data-x="-1400" data-y="-650" >
+		<ul>
+			<li>Shadow DOM</li>
+			<li>JSX</li>
+			<li>Components</li>
+			<li>Why this makes sense</li>
+			<li>ES6, transpiling, and webpack</li>
+			<li>Enzyme for testing along with other standard choices (karma, jasmine, jest)</li>
+		</ul>
+    </div>
+
+	<div id="dom" class="picture step" data-x="-2800" data-y="-3500" data-z="-8000" data-rotate-z="180" data-rotate-y="-90" data-scale="4">
+	</div>
+
+	
+	<div id="overview" class="step" data-x="3000" data-y="-1000" data-scale="10">
+    </div>
+</div>
+
+<script src="//netdna.impressjscdn.com/impressjs/0.5.3/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
