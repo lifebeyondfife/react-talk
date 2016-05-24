@@ -306,9 +306,9 @@ ul > li
     display: block;
 
     width: 980px;
-    height: 675px;
+    height: 1036px;
 
-	background-image: url("./images/dom.png");
+	background-image: url("./images/longdom.png");
 }
 
 
@@ -336,3 +336,16 @@ ul > li
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
+
+/*
+	Shadow slide
+*/
+#shadow {
+    display: block;
+
+    width: 1024px;
+    height: 405px;
+
+	background-image: url("./images/shadow.png");
+}
+
