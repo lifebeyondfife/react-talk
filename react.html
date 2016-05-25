@@ -3,7 +3,7 @@
 <head>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href="react.css" rel="stylesheet" />
-	
+
 	<script src="node_modules/todomvc-common/base.js"></script>
 	<script src="node_modules/react/dist/react-with-addons.js"></script>
 	<script src="node_modules/classnames/index.js"></script>
@@ -27,7 +27,7 @@
 			document.getElementById("date").innerHTML += "<q>" + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear() + "</q>";
 		</script>
     </div>
-	
+
     <div class="step slide" data-x="0" data-y="-1500">
 		<ol>
 			<li>Why React?</li>
@@ -40,7 +40,7 @@
     <div id="title" class="step" data-x="5000" data-y="0" data-scale="7">
         <h1>The state of web development in 2016</h1>
     </div>
-	
+
 	<div class="step slide longlist" data-x="1400" data-y="-1500" >
 		<ul>
 			<li>Angular (1.* / 2.0) – MVC/MVVM framework</li>
@@ -53,7 +53,7 @@
 			<li>“No framework, random js libraries”</li>
 		</ul>
     </div>
-	
+
 	<div id="state" class="picture step" data-x="5000" data-y="-3500" data-rotate="180" data-scale="4">
 		<span class="bottom"><a href="http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/">http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/</a></span>
     </div>
@@ -67,6 +67,11 @@
 
     <div id="tiny" class="step" data-x="5500" data-y="3000" data-z="-5000" data-rotate-x="225" data-rotate-y="10" data-rotate-z="190" data-scale="1">
         <p>React</p>
+        <!-- V in MVC - lightweight -->
+        <!-- Opinionated in how you architect the rest of your web application -->
+        <!-- Componentised - build up an app with small pieces of modular functionality -->
+        <!-- react.min.js (15.1.0) 147kb -->
+        <!-- react-dom.min.js (15.1.0) 709b i.e. < 1k -->
     </div>
 
 	<div class="step slide longlist" data-x="-1400" data-y="-650" >
@@ -84,19 +89,50 @@
 	</div>
 
 	<div id="shadow" class="picture step" data-x="-1800" data-y="-3500" data-z="-12400" data-rotate-z="180" data-rotate-y="-120" data-scale="4">
+        <!-- Shadow DOM, so no jQuery -->
 	</div>
 
+    <div id="render" class="picture step" data-z="-1200" data-x="9000" data-y="2500"
+    data-rotate-z="0" data-rotate-x="-30" data-rotate-y="75" data-scale="2">
+        <!-- render() -->
+        <!-- props -->
+        <!-- state -->
+        <!-- JSX -->
+        <!--<div id="render"></div>-->
+        <!--<div id="props"></div>-->
 
-	<div class="step slide longlist" data-x="0" data-y="-650" >
+    </div>
+
+    <div id="props" class="picture step" data-z="-2900" data-x="9500" data-y="1550"
+    data-rotate-z="0" data-rotate-x="-30" data-rotate-y="75" data-scale="2">
+    </div>
+
+    <div>
+        <!-- Components -->
+    </div>
+
+    <!-- Why this makes sense -->
+    <div>
+        <!-- Radium -->
+    </div>
+
+	<div class="step slide" data-x="0" data-y="-650">
 		<section class="todoapp"></section>
 	</div>
 
+    <div class="step slide" data-x="1400" data-y="-650">
+        <q>ES6, transpiling, and webpack</q>
+    </div>
+
+    <div>
+        <!-- Enzyme (other testing libraries) -->
+    </div>
 
 
-
-
-
-
+    <!-- Flux -->
+    <div>
+        <!--  -->
+    </div>
 
 
 	<div id="overview" class="step" data-x="3000" data-y="-1000" data-scale="10">
