@@ -789,3 +789,21 @@ ul > li
 
     background-image: url("./images/props.png");
 }
+
+#css {
+    display: block;
+
+    width: 1083px;
+    height: 478px;
+
+    background-image: url("./images/css.png");
+}
+
+#fss {
+    display: block;
+
+    width: 1006px;
+    height: 637px;
+
+    background-image: url("./images/fss.png");
+}
