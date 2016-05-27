@@ -829,3 +829,13 @@ ul > li
 
     background-image: url("./images/redux.png");
 }
+
+#links a {
+    font-size: 90%;
+}
+
+#thanks q {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 300px;
+}
