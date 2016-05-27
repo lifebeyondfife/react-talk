@@ -645,12 +645,15 @@ ul > li
 */
 #title h1 {
     font-size: 110px;
+    font-family: 'Source Sans Pro', sans-serif;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
     -o-transform:      translateZ(50px);
     transform:         translateZ(50px);
+
+    width: 900px;
 
     text-align: right;
     -webkit-text-stroke: 1px black;
@@ -743,12 +746,13 @@ ul > li
 /*
 	Tiny slide
 */
-#tiny {
+.tiny {
     width: 700px;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-#tiny p {
+.tiny p {
 	font-size: 250px;
 	-webkit-text-stroke: 1px black;
 	color: white;
