@@ -811,3 +811,21 @@ ul > li
 
     background-image: url("./images/fss.png");
 }
+
+#flux {
+    display: block;
+
+    width: 960px;
+    height: 478px;
+
+    background-image: url("./images/flux.png");
+}
+
+#redux {
+    display: block;
+
+    width: 980px;
+    height: 529px;
+
+    background-image: url("./images/redux.png");
+}
