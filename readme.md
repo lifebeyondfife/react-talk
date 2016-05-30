@@ -3,7 +3,7 @@
 Clone this repo
 
 ```
-$ git clone git@git.prod.skyscanner.local:IainMcDonald/react-talk.git
+$ git clone git@github.com:lifebeyondfife/react-talk.git
 ```
 
 Install the `serve` tool
@@ -12,7 +12,7 @@ Install the `serve` tool
 $ npm install serve
 ```
 
-Serve the presentation by executing:
+Serve the presentation by executing
 
 ```
 $ serve ./react-talk
