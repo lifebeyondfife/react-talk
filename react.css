@@ -695,8 +695,8 @@ ul > li
 #trends {
     display: block;
 
-    width: 970px;
-    height: 448px;
+    width: 1024px;
+    height: 361px;
     padding: 40px 60px;
 
     background-image: url("./images/trends.png");
@@ -803,13 +803,13 @@ ul > li
     background-image: url("./images/css.png");
 }
 
-#fss {
+#enzyme {
     display: block;
 
-    width: 374px;
-    height: 822px;
+    width: 850px;
+    height: 611px;
 
-    background-image: url("./images/fss.png");
+    background-image: url("./images/enzyme.png");
 }
 
 #flux {
